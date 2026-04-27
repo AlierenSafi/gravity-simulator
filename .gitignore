@@ -1,0 +1,60 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+
+# Arduino IDE
+*.eep
+*.elf
+*.hex
+*.bin
+*.elf
+*.hex
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# IDE
+.vscode/
+.idea/
+*.uvoptx
+*.uvprojx
+*.uvguix.*
+Debug/
+Release/
+*.launch
+
+# Processing
+application.linux*/
+application.macosx*/
+application.windows*/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Scenario files (user-generated)
+*.json
+
+# Python (if used for tools/scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
